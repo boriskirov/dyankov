@@ -25,7 +25,7 @@ export default function Home() {
             <a>collection</a>
           </Link>
           <br />
-          <Link href="./">
+          <Link href="mailto:john@example.com?subject=Hello">
             <a>contact</a>
           </Link>
         </nav>

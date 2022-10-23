@@ -19,7 +19,7 @@ export default function Collection() {
           </Link>
         </div>
         <nav className="cs11 ce12">
-          <Link href="/about">
+          <Link href="./about">
             <a>about</a>
           </Link>
           <br />
