@@ -78,7 +78,7 @@ export default function Collection() {
               src="https://files.cargocollective.com/c884094/Para-ceramica.mp4"
               loop="loop"
               muted="muted"
-              autoplay="autoplay"
+              autoPlay="autoplay"
             ></video>
           </div>
           <hr />

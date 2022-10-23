@@ -38,7 +38,7 @@ export default function Home() {
               playsinline=""
               loop="loop"
               muted="muted"
-              autoplay="autoplay"
+              autoPlay="autoplay"
               poster="https://formelstudio.com/thumbs/home/formel-500x281-q60.jpg"
               src="https://files.cargocollective.com/c884094/10.mp4"
             ></video>

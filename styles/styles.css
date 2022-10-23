@@ -1,6 +1,7 @@
 body {
   height: 100%;
   background-color: #dbdbdb;
+  word-break: break-word;
 }
 
 footer {
@@ -19,6 +20,7 @@ hr {
 h1 {
   font-size: calc(var(--font-size) * 4.5);
   font-weight: calc(var(--font-weight) * 0.66);
+  line-height: 0.95;
 }
 
 h2 {
