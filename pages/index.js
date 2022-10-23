@@ -16,7 +16,7 @@ export default function Home() {
             <h2>Kristiyan Dyankov</h2>
           </a>
         </Link>
-        <nav className="cs11 ce12">
+        <nav className="cs11 ce12 nav">
           <Link href="/about">
             <a>about</a>
           </Link>
@@ -35,7 +35,6 @@ export default function Home() {
         <div className="grid">
           <div className="cs3 ce10">
             <video
-              playsinline=""
               loop="loop"
               muted="muted"
               autoPlay="autoplay"

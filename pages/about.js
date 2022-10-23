@@ -36,7 +36,10 @@ export default function Collection() {
 
       <main className="cs1 ce12">
         <div className="grid">
-          <div className="cs1 ce6">
+          <div className="cs1 ce6 sticky">
+            <Image src="/me.png" width={1440} height={1800} />
+          </div>
+          <div className="cs7 ce12">
             <h2>
               “Coming from a DIY background, I am drawn to working with my two
               hands and understanding how things work. In my work I like to play
@@ -46,9 +49,6 @@ export default function Collection() {
             </h2>
           </div>
           <div className="cs7 ce12">
-            <Image src="/me.png" width={1440} height={1800} />
-          </div>
-          <div className="cs1 ce6">
             <h2>
               Kristiyan is born in Sofia, Bulgaria, currently following a
               product design course at the Willem de Kooning Academy, Rotterdam.

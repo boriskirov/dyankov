@@ -45,3 +45,19 @@ a {
   display: flex;
   align-items: center;
 }
+
+.nav {
+  margin: 40px 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 40px 0;
+}
+
+@media (max-width: 1024px) {
+  .sticky {
+    position: initial;
+  }
+}
