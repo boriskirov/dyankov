@@ -35,10 +35,11 @@ export default function Home() {
         <div className="grid">
           <div className="cs3 ce10">
             <video
+              playsinline=""
               loop="loop"
               muted="muted"
-              autoPlay="autoplay"
-              poster="https://formelstudio.com/thumbs/home/formel-500x281-q60.jpg"
+              autoplay="autoplay"
+              poster="https://i.ibb.co/j80ZtQx/main.jpg"
               src="https://files.cargocollective.com/c884094/10.mp4"
             ></video>
           </div>
