@@ -39,3 +39,8 @@ a {
   padding: 4vw;
   height: 100vh;
 }
+
+.flex-items-center {
+  display: flex;
+  align-items: center;
+}

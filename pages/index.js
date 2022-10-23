@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -42,15 +43,16 @@ export default function Home() {
               src="https://files.cargocollective.com/c884094/10.mp4"
             ></video>
           </div>
-          <div className="cs6 ce12">
+          <div className="cs6 ce12 flex-items-center">
             <Link href="./collection">
-              <a>Check the collection ↗</a>
+              <a>Check the collection</a>
             </Link>
+            <Image src="/project.svg" width={48} height={48} />
           </div>
         </div>
       </main>
 
-      <footer className="cs1 ce12">Designed with ❤️ by Boris Kirov</footer>
+      <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>
     </div>
   );
 }

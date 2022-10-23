@@ -13,11 +13,13 @@ export default function Collection() {
       <header className="grid cs1 ce12">
         <div className="cs1 ce10">
           <Link href="/">
-            <a>Back</a>
+            <a>
+              <Image src="/back.svg" width={44} height={44} />
+            </a>
           </Link>
         </div>
         <nav className="cs11 ce12">
-          <Link href="/">
+          <Link href="/about">
             <a>about</a>
           </Link>
           <br />
@@ -59,6 +61,7 @@ export default function Collection() {
           </div>
         </div>
       </main>
+      <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>
     </div>
   );
 }
