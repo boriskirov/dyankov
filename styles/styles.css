@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  background-color: #dbdbdb;
+}
+
+footer {
+  padding: 2vw 0;
+}
+
+video {
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+  margin: 8vw 0;
+}
+
+h1 {
+  font-size: calc(var(--font-size) * 4.5);
+  font-weight: calc(var(--font-weight) * 0.66);
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: calc(var(--font-size) * 2.5);
+  font-weight: calc(var(--font-weight) * 0.66);
+}
+
+h1 > bold {
+  font-weight: calc(var(--font-weight) * 2.66);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  padding: 4vw;
+  height: 100vh;
+}
