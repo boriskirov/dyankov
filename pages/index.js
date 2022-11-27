@@ -47,7 +47,6 @@ export default function Home() {
             <Link href="./collection">
               <a>Check the collection</a>
             </Link>
-            <Image src="/project.svg" width={48} height={48} />
           </div>
         </div>
       </main>

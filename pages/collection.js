@@ -2,7 +2,18 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Collection() {
+import { getSortedPostsData } from "../lib/posts";
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData();
+  return {
+    props: {
+      allPostsData,
+    },
+  };
+}
+
+export default function Collection({ allPostsData }) {
   return (
     <div className="main-container grid">
       <Head>
@@ -18,7 +29,7 @@ export default function Collection() {
             </a>
           </Link>
         </div>
-        <nav className="cs11 ce12">
+        <nav className="cs11 ce12 nav">
           <Link href="./about">
             <a>about</a>
           </Link>
@@ -35,7 +46,19 @@ export default function Collection() {
       <hr />
 
       <main className="cs1 ce12">
-        <div className="grid">
+        <section>
+          <ul>
+            {allPostsData.map(({ id, date, title }) => (
+              <li key={id}>
+                <Link href={`../posts/${id}`}>{title}</Link>
+                <br />
+                {date}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {/* <div className="grid">
           <div className="cs1 ce7">
             <Image src="/main.png" width={1200} height={920} />
           </div>
@@ -140,7 +163,7 @@ export default function Collection() {
           <div className="cs1 ce12">
             <Image src="/duality-1.png" width={2440} height={1280} />
           </div>
-        </div>
+        </div> */}
       </main>
       <hr />
       <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>
