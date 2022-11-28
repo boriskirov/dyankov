@@ -14,7 +14,7 @@ video {
 
 hr {
   width: 100%;
-  margin: 8vw 0;
+  margin: 3vw 0;
 }
 
 h1 {
@@ -36,6 +36,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 .main-container {
   padding: 4vw;
   height: 100vh;
@@ -54,6 +58,19 @@ a {
   position: sticky;
   top: 0;
   padding: 40px 0;
+}
+
+.title-link {
+  cursor: pointer;
+}
+
+.title-link:hover {
+  color: #686afe;
+}
+
+.product-item {
+  padding: 2vw 0px;
+  list-style: none;
 }
 
 @media (max-width: 1024px) {

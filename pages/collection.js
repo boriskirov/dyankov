@@ -43,16 +43,17 @@ export default function Collection({ allPostsData }) {
           </Link>
         </nav>
       </header>
-      <hr />
 
       <main className="cs1 ce12">
         <section>
           <ul>
             {allPostsData.map(({ id, date, title }) => (
-              <li key={id}>
-                <Link href={`../posts/${id}`}>{title}</Link>
+              <li key={id} className="product-item">
+                <Link href={`../posts/${id}`}>
+                  <h1 className="title-link">{title}</h1>
+                </Link>
                 <br />
-                {date}
+                <small>{date}</small>
               </li>
             ))}
           </ul>
