@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -11,41 +11,56 @@ export default function Home() {
       </Head>
 
       <header className="grid cs1 ce12">
-        <Link href="/">
-          <a className="cs1 ce10">
-            <h2>Kristiyan Dyankov</h2>
-          </a>
-        </Link>
+        <p className="cs1 ce10">Kristiyan Dyankov</p>
         <nav className="cs11 ce12 nav">
-          <Link href="/about">
-            <a>about</a>
-          </Link>
+          <Link href="/about">about</Link>
           <br />
-          <Link href="./collection">
-            <a>collection</a>
-          </Link>
+          <Link href="./collection">collection</Link>
           <br />
-          <Link href="mailto:john@example.com?subject=Hello">
-            <a>contact</a>
-          </Link>
+          <Link href="mailto:john@example.com?subject=Hello">contact</Link>
         </nav>
       </header>
 
       <main className="cs1 ce12">
         <div className="grid">
-          <div className="cs3 ce10">
-            <video
+          <div className="cs1 ce12">
+            <motion.p
+              className="title"
+              initial={{
+                y: 0,
+                opacity: 1,
+              }}
+              animate={{
+                y: [0, 1],
+                opacity: 0,
+              }}
+              transition={{ ease: "easeIn", duration: 2.75 }}
+            >
+              Kristiyan Dyankov
+            </motion.p>
+          </div>
+          <div className="cs1 ce12">
+            <motion.video
               playsinline=""
               loop="loop"
               muted="muted"
               autoplay="autoplay"
               poster="https://i.ibb.co/j80ZtQx/main.jpg"
               src="https://files.cargocollective.com/c884094/10.mp4"
-            ></video>
+              initial={{
+                y: 0,
+                opacity: 0,
+              }}
+              animate={{
+                y: [0, 1],
+                opacity: 1,
+              }}
+              transition={{ ease: "easeIn", duration: 1.75 }}
+            ></motion.video>
           </div>
-          <div className="cs6 ce12 flex-items-center">
-            <Link href="./collection">
-              <a>Check the collection</a>
+          <div className="cs1 ce12">
+            <Link href="/collection" className="button">
+              Button
             </Link>
           </div>
         </div>

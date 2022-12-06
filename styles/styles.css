@@ -18,18 +18,29 @@ hr {
 }
 
 h1 {
-  font-size: calc(var(--font-size) * 4.5);
+  font-size: calc(var(--font-size) * 2.5);
   font-weight: calc(var(--font-weight) * 0.66);
   line-height: 0.95;
 }
 
 h2 {
-  font-size: calc(var(--font-size) * 2.5);
+  font-size: calc(var(--font-size) * 1.5);
   font-weight: calc(var(--font-weight) * 0.66);
+}
+
+h5 {
+  font-size: calc(var(--font-size) * 0.75);
+  font-weight: calc(var(--font-weight) * 1.66);
+  line-height: var(--line-height);
 }
 
 h1 > bold {
   font-weight: calc(var(--font-weight) * 2.66);
+}
+
+p,
+a {
+  font-size: calc(var(--font-size) * 0.75);
 }
 
 a {
@@ -41,8 +52,13 @@ img {
 }
 
 .main-container {
-  padding: 4vw;
+  padding: 2vw;
   height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex-items-center {
@@ -50,14 +66,27 @@ img {
   align-items: center;
 }
 
-.nav {
-  margin: 40px 0;
+.button {
+  padding: 24px;
+  background: white;
 }
 
 .sticky {
   position: sticky;
   top: 0;
   padding: 40px 0;
+}
+
+.title {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10000;
+  font-size: 400%;
+  line-height: 1.4;
 }
 
 .title-link {
@@ -69,14 +98,26 @@ img {
 }
 
 .product-item {
-  padding: 2vw 0px;
+  padding: 12px 12px;
   list-style: none;
+  background-color: #97979740;
+  margin: 24px 0;
+  border-radius: 4px;
+}
+
+.back-button {
+  width: 44px;
 }
 
 @media (max-width: 1024px) {
+  .main-container {
+    padding: 6vw;
+  }
+
   .nav {
     display: flex;
     justify-content: space-between;
+    margin: 40px 0;
   }
   .sticky {
     position: initial;

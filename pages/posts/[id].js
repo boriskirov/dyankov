@@ -31,23 +31,20 @@ export default function Post({ postData }) {
         <header className="grid cs1 ce12">
           <div className="cs1 ce10">
             <Link href="/collection">
-              <a>
-                <Image src="/back.svg" width={44} height={44} />
-              </a>
+              <Image
+                src="/back.svg"
+                className="back-button"
+                width={44}
+                height={44}
+              />
             </Link>
           </div>
           <nav className="cs11 ce12 nav">
-            <Link href="./about">
-              <a>about</a>
-            </Link>
+            <Link href="./about">about</Link>
             <br />
-            <Link href="./collection">
-              <a>collection</a>
-            </Link>
+            <Link href="./collection">collection</Link>
             <br />
-            <Link href="mailto:john@example.com?subject=Hello">
-              <a>contact</a>
-            </Link>
+            <Link href="mailto:john@example.com?subject=Hello">contact</Link>
           </nav>
         </header>
         <h1>{postData.title}</h1>
