@@ -40,14 +40,15 @@ export default function Post({ postData }) {
             </Link>
           </div>
           <nav className="cs11 ce12 nav">
-            <Link href="./about">about</Link>
+            <Link href="../about">about</Link>
             <br />
-            <Link href="./collection">collection</Link>
+            <Link href="../collection">collection</Link>
             <br />
             <Link href="mailto:john@example.com?subject=Hello">contact</Link>
           </nav>
         </header>
         <h1>{postData.title}</h1>
+        <br />
         <small>{postData.date}</small>
         <hr />
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
