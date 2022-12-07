@@ -27,8 +27,8 @@ export default function Collection({ allPostsData }) {
             <Image
               src="/back.svg"
               className="back-button"
-              width={44}
-              height={44}
+              width={24}
+              height={24}
             />
           </Link>
         </div>
