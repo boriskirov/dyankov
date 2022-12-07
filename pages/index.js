@@ -21,7 +21,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="cs3 ce10">
+      <main className="cs2 ce11">
         <div className="grid">
           <div className="cs1 ce12">
             <motion.p
@@ -57,6 +57,11 @@ export default function Home() {
               }}
               transition={{ ease: "easeIn", duration: 1.75 }}
             ></motion.video>
+          </div>
+          <div className="cs1 ce12 ">
+            <Link href="/collection" className="center">
+              View the collection
+            </Link>
           </div>
         </div>
       </main>

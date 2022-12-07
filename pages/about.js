@@ -53,9 +53,6 @@ export default function Collection() {
               between the two majors.
             </h2>
           </div>
-          <div className="cs7 ce12">
-            <h2></h2>
-          </div>
         </div>
       </main>
       <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>

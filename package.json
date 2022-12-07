@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/font": "^13.0.6",
     "eslint-config-next": "^13.0.6",
     "fluiditype": "^1.0.0",
     "framer-motion": "^7.6.19",
