@@ -111,6 +111,7 @@ small {
   background-color: #97979740;
   margin: 24px 0;
   border-radius: 4px;
+  height: 480px;
 }
 
 .back-button {
@@ -120,6 +121,12 @@ small {
 .center {
   display: flex;
   justify-content: center;
+}
+
+.collection-image {
+  z-index: -100;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 @media (max-width: 1024px) {

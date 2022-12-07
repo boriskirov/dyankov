@@ -1,6 +1,7 @@
 ---
 title: "Organica"
 date: "2022"
+image: "/organica/thumbnail.png"
 ---
 
 Looking at how rain droplets create ripples in the water we can learn about hidden patterns and perhaps try to imitate them. In this project I used the ripple principle to create a three dimensional version of it in wood. The commission is for a lobby of a building where this natural form will provoke calm and a sense of tranquility. The solid Ash wood panels are CNC milled and the wood is left to show it’s hidden inner rings and layers. This relatively new technique of working uses black and white imagery to generate the three dimensional surfaces.

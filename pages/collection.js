@@ -44,7 +44,7 @@ export default function Collection({ allPostsData }) {
       <main className="cs1 ce12">
         <section>
           <ul>
-            {allPostsData.map(({ id, date, title }) => (
+            {allPostsData.map(({ id, date, title, image }) => (
               <motion.li
                 key={id}
                 className="product-item"
@@ -59,10 +59,10 @@ export default function Collection({ allPostsData }) {
                 }}
                 transition={{ ease: "easeIn", duration: 0.15 }}
               >
+                <Image src={image} className="collection-image" fill />
                 <Link href={`../posts/${id}`}>
                   <h1 className="title-link">{title}</h1>
                 </Link>
-                <br />
                 <small>{date}</small>
               </motion.li>
             ))}
