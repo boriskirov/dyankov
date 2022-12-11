@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Collection() {
   return (
@@ -13,12 +14,7 @@ export default function Collection() {
       <header className="grid cs1 ce12">
         <div className="cs1 ce10">
           <Link href="/">
-            <Image
-              src="/back.svg"
-              className="back-button"
-              width={24}
-              height={24}
-            />
+            <Image src="/back.svg" className="icon" width={24} height={24} />
           </Link>
         </div>
         <nav className="cs11 ce12 nav">
@@ -26,23 +22,36 @@ export default function Collection() {
           <br />
           <Link href="./collection">collection</Link>
           <br />
-          <Link href="mailto:john@example.com?subject=Hello">contact</Link>
+          <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
         </nav>
       </header>
       <hr />
 
-      <main className="cs1 ce12">
+      <motion.main
+        className="cs1 ce12"
+        initial={{
+          y: 0,
+          opacity: 0,
+        }}
+        animate={{
+          y: [10, 1],
+          opacity: 1,
+        }}
+        transition={{ ease: "easeIn", duration: 0.35 }}
+      >
         <div className="grid">
           <div className="cs1 ce6 sticky">
             <Image src="/me.png" width={1280} height={980} />
           </div>
-          <div className="cs7 ce12">
-            <h2>
+          <div className="cs7 ce12 grid">
+            <p className="cs3 ce8">
               “Coming from a DIY background, I am drawn to working with my two
               hands and understanding how things work. In my work I like to play
               with textures and solve problems on various scales. The tools of
               digital fabrication and material knowledge are essential for my
               work.” <br />
+            </p>
+            <p className="cs3 ce8">
               <br />
               Kristiyan is born in Sofia, Bulgaria, currently following a
               product design course at the Willem de Kooning Academy, Rotterdam.
@@ -51,10 +60,31 @@ export default function Collection() {
               in product design in the Netherlands. His experience with spatial
               design and various manufacturing techniques positions him in
               between the two majors.
-            </h2>
+            </p>
+            <div className="flex cs3 ce8">
+              <Link
+                href="https://www.linkedin.com/in/kristiyan-dyankov/"
+                target="_blank"
+              >
+                <Image
+                  src="/linkedin.svg"
+                  className="icon"
+                  width={24}
+                  height={24}
+                />
+              </Link>
+              <Link href="mailto:dyankovv@gmail.com?subject=Hello">
+                <Image
+                  src="/mail.svg"
+                  className="icon"
+                  width={24}
+                  height={24}
+                />
+              </Link>
+            </div>
           </div>
         </div>
-      </main>
+      </motion.main>
       <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>
     </div>
   );

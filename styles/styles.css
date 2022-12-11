@@ -61,6 +61,11 @@ small {
   height: 100vh;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -94,28 +99,37 @@ small {
   line-height: 1.4;
   font-weight: 400;
   letter-spacing: -1px;
-  font-family: "Cormorant";
 }
 
 .title-link {
   cursor: pointer;
+  font-size: 24px;
 }
 
 .title-link:hover {
   color: #686afe;
 }
 
+.product-items {
+  display: flex;
+}
+
 .product-item {
   padding: 24px;
   list-style: none;
   background-color: #97979740;
-  margin: 24px 0;
+  margin: 24px 4px;
   border-radius: 4px;
   height: 480px;
+  width: 25%;
 }
 
-.back-button {
-  width: 44px;
+.icon {
+  width: 32px;
+}
+
+.icon:hover {
+  scale: 1.1;
 }
 
 .center {
@@ -141,5 +155,13 @@ small {
   }
   .sticky {
     position: initial;
+  }
+
+  .product-items {
+    flex-direction: column;
+  }
+
+  .product-item {
+    width: 100%;
   }
 }

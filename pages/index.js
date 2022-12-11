@@ -17,7 +17,7 @@ export default function Home() {
           <br />
           <Link href="./collection">collection</Link>
           <br />
-          <Link href="mailto:john@example.com?subject=Hello">contact</Link>
+          <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
         </nav>
       </header>
 
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           <div className="cs1 ce12">
             <motion.video
-              playsinline=""
+              playsInline=""
               loop="loop"
               muted="muted"
               autoplay="autoplay"
