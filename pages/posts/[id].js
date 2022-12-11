@@ -59,6 +59,14 @@ export default function Post({ postData }) {
         <small>{postData.date}</small>
         <hr />
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className="flex space-between">
+          <Link href="../posts/2-paraceramica.md">
+            <h2>← [Paracemarica]</h2>
+          </Link>
+          <Link href="../posts/4-swell.md">
+            <h2>[Swell] →</h2>
+          </Link>
+        </div>
       </motion.div>
     </div>
   );

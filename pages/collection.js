@@ -63,7 +63,6 @@ export default function Collection({ allPostsData }) {
           </ul>
         </section>
       </main>
-
       <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>
     </div>
   );

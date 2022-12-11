@@ -71,6 +71,14 @@ a:hover {
   justify-content: space-between;
 }
 
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 .flex-items-center {
   display: flex;
   align-items: center;
