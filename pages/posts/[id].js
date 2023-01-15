@@ -41,12 +41,12 @@ export default function Post({ postData }) {
         className="main-container"
       >
         <header className="grid cs1 ce12">
-          <div className="cs1 ce10">
+          <div className="cs1 ce8">
             <Link href="/collection">
               <Image src="/back.svg" className="icon" width={44} height={44} />
             </Link>
           </div>
-          <nav className="cs11 ce12 nav">
+          <nav className="cs9 ce12 nav">
             <Link href="../about">about</Link>
             <br />
             <Link href="../collection">collection</Link>
@@ -67,6 +67,13 @@ export default function Post({ postData }) {
             <h2>[Swell] →</h2>
           </Link>
         </div>
+        <footer className="cs1 ce12 flex space-between">
+          <Link href="/about">about</Link>
+          <br />
+          <Link href="./collection">collection</Link>
+          <br />
+          <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
+        </footer>
       </motion.div>
     </div>
   );

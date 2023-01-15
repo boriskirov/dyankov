@@ -12,12 +12,12 @@ export default function Collection() {
       </Head>
 
       <header className="grid cs1 ce12">
-        <div className="cs1 ce10">
+        <div className="cs1 ce9">
           <Link href="/">
             <Image src="/back.svg" className="icon" width={24} height={24} />
           </Link>
         </div>
-        <nav className="cs11 ce12 nav">
+        <nav className="cs10 ce12 nav">
           <Link href="./about">about</Link>
           <br />
           <Link href="./collection">collection</Link>

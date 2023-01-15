@@ -22,12 +22,12 @@ export default function Collection({ allPostsData }) {
       </Head>
 
       <header className="grid cs1 ce12">
-        <div className="cs1 ce10">
+        <div className="cs1 ce8">
           <Link href="/">
             <Image src="/back.svg" className="icon" width={24} height={24} />
           </Link>
         </div>
-        <nav className="cs11 ce12 nav">
+        <nav className="cs10 ce12 nav">
           <Link href="./about">about</Link>
           <br />
           <Link href="./collection">collection</Link>
@@ -39,7 +39,7 @@ export default function Collection({ allPostsData }) {
       <main className="cs1 ce12">
         <section>
           <ul className="product-items">
-            {allPostsData.map(({ id, date, title, image }) => (
+            {allPostsData.map(({ id, title, image }) => (
               <motion.a
                 key={id}
                 className="product-item"
@@ -63,7 +63,6 @@ export default function Collection({ allPostsData }) {
           </ul>
         </section>
       </main>
-      <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>
     </div>
   );
 }

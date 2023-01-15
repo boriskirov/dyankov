@@ -14,7 +14,9 @@ Looking at how rain droplets create ripples in the water we can learn about hidd
 
 ##### Year 2020, In progress
 
-![Organica](/organica/2.png "Organica")
+<!--  -->
+
+![Organica](/organica/2.png#thumb "Organica")
 ![Organica](/organica/3.png "Organica")
 ![Organica](/organica/4.png "Organica")
 ![Organica](/organica/5.png "Organica")

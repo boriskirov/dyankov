@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
 
       <header className="grid cs1 ce12">
-        <h6 className="cs1 ce10">Kristiyan Dyankov</h6>
-        <nav className="cs11 ce12 nav">
+        <h6 className="cs1 ce8">Kristiyan Dyankov</h6>
+        <nav className="cs10 ce12 nav">
           <Link href="/about">about</Link>
           <br />
           <Link href="./collection">collection</Link>
@@ -58,15 +58,13 @@ export default function Home() {
               transition={{ ease: "easeIn", duration: 1.75 }}
             ></motion.video>
           </div>
-          <div className="cs1 ce12 ">
-            <Link href="/collection" className="center">
-              View the collection
-            </Link>
-          </div>
         </div>
       </main>
-
-      <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>
+      <div className="cs1 ce12 ">
+        <Link href="/collection" className="center">
+          View the collection
+        </Link>
+      </div>
     </div>
   );
 }
