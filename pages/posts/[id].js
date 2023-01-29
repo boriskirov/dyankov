@@ -52,25 +52,47 @@ export default function Post({ postData }) {
             <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
           </nav>
         </header>
-        <h1>{postData.title}</h1>
-        <br />
-        <small>{postData.date}</small>
-        <hr />
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        <div className="flex space-between">
-          <Link href="../posts/2-paraceramica.md">
-            <h2>← [Paracemarica]</h2>
-          </Link>
-          <Link href="../posts/4-swell.md">
-            <h2>[Swell] →</h2>
-          </Link>
+        <div className="grid">
+          <div className="cs1 ce7">
+            <h5>{postData.title}</h5>
+            <small>{postData.body}</small>
+            <ul>
+              <li>
+                <small>{postData.date}</small>
+              </li>
+              <li>
+                <small>{postData.dimensions}</small>
+              </li>
+              <li>
+                <small>{postData.material}</small>
+              </li>
+              <li>
+                <small>{postData.photos}</small>
+              </li>
+            </ul>
+          </div>
+          <div
+            dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+            className="cs1 ce12"
+          />
         </div>
-        <footer className="cs1 ce12 flex space-between">
-          <Link href="/about">about</Link>
-          <br />
-          <Link href="./collection">collection</Link>
-          <br />
-          <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
+
+        <footer className="grid">
+          <div className="cs1 ce12 flex space-between">
+            <Link href="../posts/2-paraceramica">
+              <h5>← [Paracemarica]</h5>
+            </Link>
+            <Link href="../posts/4-swell">
+              <h5>[Swell] →</h5>
+            </Link>
+          </div>
+          <div className="cs1 ce12 flex">
+            <Link href="/about">about</Link>
+            <br />
+            <Link href="./collection">collection</Link>
+            <br />
+            <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
+          </div>
         </footer>
       </motion.div>
     </div>

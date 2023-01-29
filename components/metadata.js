@@ -23,7 +23,7 @@ export default function Metadata() {
         content="Kristyan Dyankov - Product Designer"
       />
       <meta property="og:url" content="https://www.dyankov.nl" />
-      <meta property="og:image" content="/favicon.ico" />
+      <meta property="og:image" content="/meta.png" />
       <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:title"

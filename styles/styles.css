@@ -1,19 +1,22 @@
 body {
   height: 100%;
   background-color: #f2f2f2;
+  color: #262626;
   word-break: break-word;
-}
-
-header {
-  padding: 0 0 3vw 0;
 }
 
 footer {
   padding: 3vw 0 0 0;
+  justify-content: flex-end;
+}
+
+footer > div > a {
+  padding-right: 12px;
 }
 
 video {
   width: 100%;
+  object-fit: cover;
 }
 
 hr {
@@ -45,15 +48,25 @@ h1 > bold {
 p,
 a {
   font-size: 14px;
+  color: #262626;
 }
 
 a {
   text-decoration: none;
 }
 
+a:hover {
+  font-weight: 600;
+  color: black;
+}
+
 img {
   width: 100%;
   height: 100%;
+}
+
+li {
+  list-style: inside;
 }
 
 // Image URL Fragmet styling, read more about it here https://dzone.com/articles/how-to-style-images-with-markdown
@@ -64,20 +77,16 @@ img[src*="#thumb"] {
 }
 
 small {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .main-container {
   padding: 2vw 12vw 6vw 12vw;
+  height: 110vh;
 }
 
 .height-100vh {
   height: 100vh;
-}
-
-a:hover {
-  font-weight: 500;
-  color: black;
 }
 
 .nav {
@@ -111,7 +120,7 @@ a:hover {
 
 .title {
   position: fixed;
-  top: 45%;
+  top: 20%;
   transform: translateY(-50%);
   left: 0;
   width: 100%;
@@ -170,10 +179,19 @@ a:hover {
     padding: 6vw;
   }
 
+  .title {
+    font-size: 200%;
+    top: 30%;
+  }
+
+  video {
+    height: 80vh;
+  }
+
   .nav {
     display: flex;
     justify-content: space-between;
-    margin: 40px 0;
+    margin: 16px 0;
   }
   .sticky {
     position: initial;
@@ -184,6 +202,6 @@ a:hover {
   }
 
   .product-item {
-    width: 100%;
+    width: 80%;
   }
 }

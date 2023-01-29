@@ -1,4 +1,3 @@
-import "/node_modules/fluiditype/fluidtype.css";
 import "../styles/fluidigrid.css";
 import "../styles/styles.css";
 import "../styles/bgstyle.css";
