@@ -4,14 +4,16 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="main-container grid">
+    <div className="main-container grid index-bg height-100vh">
       <Head>
         <title>Kristyan Dyankov</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className="grid cs1 ce12">
-        <h6 className="cs1 ce8">Kristiyan Dyankov</h6>
+        <div className="cs1 ce8 flex">
+          <h6>Kristiyan Dyankov</h6>
+        </div>
         <nav className="cs10 ce12 nav">
           <Link href="/about">about</Link>
           <br />
@@ -44,7 +46,7 @@ export default function Home() {
               playsInline=""
               loop="loop"
               muted="muted"
-              autoplay="autoplay"
+              autoPlay="autoplay"
               poster="https://i.ibb.co/j80ZtQx/main.jpg"
               src="https://files.cargocollective.com/c884094/10.mp4"
               initial={{

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Collection() {
   return (
-    <div className="main-container grid">
+    <div className="main-container grid about-bg">
       <Head>
         <title>Kristyan Dyankov</title>
         <link rel="icon" href="/favicon.ico" />
@@ -25,7 +25,6 @@ export default function Collection() {
           <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
         </nav>
       </header>
-      <hr />
 
       <motion.main
         className="cs1 ce12"
@@ -40,18 +39,18 @@ export default function Collection() {
         transition={{ ease: "easeIn", duration: 0.35 }}
       >
         <div className="grid">
-          <div className="cs1 ce6 sticky">
+          <div className="cs1 ce4 sticky">
             <Image src="/me.png" width={1280} height={980} />
           </div>
-          <div className="cs7 ce12 grid">
-            <p className="cs3 ce8">
+          <div className="cs5 ce12 grid">
+            <p className="cs2 ce12">
               “Coming from a DIY background, I am drawn to working with my two
               hands and understanding how things work. In my work I like to play
               with textures and solve problems on various scales. The tools of
               digital fabrication and material knowledge are essential for my
               work.” <br />
             </p>
-            <p className="cs3 ce8">
+            <p className="cs2 ce12">
               <br />
               Kristiyan is born in Sofia, Bulgaria, currently following a
               product design course at the Willem de Kooning Academy, Rotterdam.
@@ -61,7 +60,7 @@ export default function Collection() {
               design and various manufacturing techniques positions him in
               between the two majors.
             </p>
-            <div className="flex cs3 ce8">
+            <div className="flex cs2 ce12">
               <Link
                 href="https://www.linkedin.com/in/kristiyan-dyankov/"
                 target="_blank"

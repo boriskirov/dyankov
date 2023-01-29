@@ -15,7 +15,7 @@ export async function getStaticProps() {
 
 export default function Collection({ allPostsData }) {
   return (
-    <div className="main-container grid">
+    <div className="main-container grid collection-bg">
       <Head>
         <title>Kristyan Dyankov</title>
         <link rel="icon" href="/favicon.ico" />

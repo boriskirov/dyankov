@@ -1,11 +1,15 @@
 body {
   height: 100%;
-  background-color: #dbdbdb;
+  background-color: #f2f2f2;
   word-break: break-word;
 }
 
+header {
+  padding: 0 0 3vw 0;
+}
+
 footer {
-  padding: 6vw 0;
+  padding: 3vw 0 0 0;
 }
 
 video {
@@ -40,7 +44,7 @@ h1 > bold {
 
 p,
 a {
-  font-size: calc(var(--font-size) * 0.75);
+  font-size: 14px;
 }
 
 a {
@@ -65,17 +69,20 @@ small {
 
 .main-container {
   padding: 2vw 12vw 6vw 12vw;
+}
+
+.height-100vh {
   height: 100vh;
 }
 
 a:hover {
-  text-decoration: underline;
+  font-weight: 500;
   color: black;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .flex {
@@ -118,7 +125,8 @@ a:hover {
 
 .title-link {
   cursor: pointer;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 300;
 }
 
 .title-link:hover {
@@ -127,16 +135,16 @@ a:hover {
 
 .product-items {
   display: flex;
+  flex-direction: column;
 }
 
 .product-item {
-  padding: 24px;
+  padding: 32px;
   list-style: none;
   background-color: #97979740;
-  margin: 24px 4px;
-  border-radius: 4px;
-  height: 480px;
-  width: 25%;
+  margin: 8px 0px;
+  height: 240px;
+  width: 100%;
 }
 
 .icon {
@@ -154,7 +162,6 @@ a:hover {
 
 .collection-image {
   z-index: -100;
-  border-radius: 8px;
   object-fit: cover;
 }
 

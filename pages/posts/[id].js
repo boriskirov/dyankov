@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 export default function Post({ postData }) {
   return (
-    <div>
+    <div className="id-bg">
       <Head>
         <title>{postData.title}</title>
       </Head>
