@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Metadata from "../components/metadata";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -16,10 +16,7 @@ export async function getStaticProps() {
 export default function Collection({ allPostsData }) {
   return (
     <div className="main-container grid collection-bg">
-      <Head>
-        <title>Kristyan Dyankov</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Metadata />
 
       <header className="grid cs1 ce12">
         <div className="cs1 ce8">

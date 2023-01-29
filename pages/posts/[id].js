@@ -1,5 +1,5 @@
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import Head from "next/head";
+import Metadata from "../../components/metadata";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -24,9 +24,7 @@ export async function getStaticPaths() {
 export default function Post({ postData }) {
   return (
     <div className="id-bg">
-      <Head>
-        <title>{postData.title}</title>
-      </Head>
+      <Metadata title={postData.title} />
 
       <motion.div
         initial={{
