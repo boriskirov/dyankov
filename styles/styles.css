@@ -120,7 +120,7 @@ small {
 
 .title {
   position: fixed;
-  top: 20%;
+  top: 50%;
   transform: translateY(-50%);
   left: 0;
   width: 100%;
