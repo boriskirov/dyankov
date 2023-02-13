@@ -4,8 +4,8 @@ export default function Metadata() {
   return (
     <Head>
       <title>Kristyan Dyankov - Product designer</title>
-      <link rel="icon" href="/favicon.ico" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/k.ico" />
+      <link rel="icon" href="/k.ico" />
       <meta name="description" content="Product designers" />
       <meta property="og:type" content="website" />
       <meta
@@ -35,8 +35,8 @@ export default function Metadata() {
       />
       <meta name="twitter:site" content="https://www.dyankov.nl" />
       <meta name="twitter:creator" content="Kristyan Dyankov" />
-      <meta name="twitter:image" content="/favicon.ico" />
-      <link rel="apple-touch-icon" href="/favicon.ico" />
+      <meta name="twitter:image" content="/k.ico" />
+      <link rel="apple-touch-icon" href="/k.ico" />
     </Head>
   );
 }
