@@ -40,23 +40,25 @@ export default function Home() {
             </motion.p>
           </div>
           <div className="cs1 ce12">
-            <motion.video
-              playsInline=""
-              loop="loop"
-              muted="muted"
-              autoPlay="autoplay"
-              poster="https://i.ibb.co/j80ZtQx/main.jpg"
-              src="https://files.cargocollective.com/c884094/10.mp4"
-              initial={{
-                y: 0,
-                opacity: 0,
-              }}
-              animate={{
-                y: [0, 1],
-                opacity: 1,
-              }}
-              transition={{ ease: "easeIn", duration: 1.75 }}
-            ></motion.video>
+            <Link href="/collection" className="center">
+              <motion.video
+                playsInline=""
+                loop="loop"
+                muted="muted"
+                autoPlay="autoplay"
+                poster="https://i.ibb.co/j80ZtQx/main.jpg"
+                src="https://files.cargocollective.com/c884094/10.mp4"
+                initial={{
+                  y: 0,
+                  opacity: 0,
+                }}
+                animate={{
+                  y: [0, 1],
+                  opacity: 1,
+                }}
+                transition={{ ease: "easeIn", duration: 1.75 }}
+              ></motion.video>
+            </Link>
           </div>
           <div className="cs1 ce12 ">
             <Link href="/collection" className="center">

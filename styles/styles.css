@@ -175,6 +175,10 @@ small {
   object-fit: cover;
 }
 
+.separator {
+  margin: 24px 0;
+}
+
 @media (max-width: 1024px) {
   .main-container {
     padding: 6vw;

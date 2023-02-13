@@ -3,6 +3,7 @@ import Metadata from "../../components/metadata";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Separator from "../../components/separator";
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -52,10 +53,12 @@ export default function Post({ postData }) {
             <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
           </nav>
         </header>
-        <div className="grid">
-          <div className="cs1 ce7">
-            <h5>{postData.title}</h5>
-            <small>{postData.body}</small>
+        <Separator />
+        <div className="grid flex-start">
+          <div className="cs1 ce4">
+            <br />
+            <h1 className="title-link">{postData.title}</h1>
+            <br />
             <ul>
               <li>
                 <small>{postData.date}</small>
@@ -71,12 +74,17 @@ export default function Post({ postData }) {
               </li>
             </ul>
           </div>
-          <div
-            dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
-            className="cs1 ce12"
-          />
+          <div className="cs5 ce10">
+            <br />
+            <small>{postData.body}</small>
+          </div>
         </div>
+        <Separator />
 
+        <div
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+          className="cs1 ce12"
+        />
         <footer className="grid">
           <div className="cs1 ce12 flex space-between">
             <Link href="../posts/2-paraceramica">

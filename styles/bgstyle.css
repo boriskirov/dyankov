@@ -1,9 +1,13 @@
+body {
+  background-color: #f2dad3;
+}
+
 .index-bg {
   background-color: #f2dad3;
 }
 
 .about-bg {
-  background-color: #f2f2f2;
+  background-color: #f2dad3;
 }
 
 .id-bg {
@@ -11,5 +15,5 @@
 }
 
 .collection-bg {
-  background-color: #f2f2f2;
+  background-color: #f2dad3;
 }
