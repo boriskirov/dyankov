@@ -2,10 +2,13 @@ import "../styles/fluidigrid.css";
 import "../styles/styles.css";
 import "../styles/bgstyle.css";
 
-import { Inter } from "@next/font/google";
+import { Atkinson_Hyperlegible } from "@next/font/google";
 
 // If loading a variable font, you don't need to specify the font weight
-const inter = Inter({ subsets: ["latin"] });
+const inter = Atkinson_Hyperlegible({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export default function MyApp({ Component, pageProps }) {
   return (

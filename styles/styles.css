@@ -14,6 +14,14 @@ footer > div > a {
   padding-right: 12px;
 }
 
+.footer {
+  margin: 64px 0;
+}
+
+.header {
+  margin: 64px 0;
+}
+
 video {
   width: 100%;
   object-fit: cover;
@@ -81,8 +89,7 @@ small {
 }
 
 .main-container {
-  padding: 2vw 12vw 6vw 12vw;
-  height: 110vh;
+  padding: 2vw 16vw 6vw 16vw;
 }
 
 .height-100vh {
@@ -118,6 +125,10 @@ small {
   padding: 40px 0;
 }
 
+.reel {
+  height: 640px;
+}
+
 .title {
   position: fixed;
   top: 50%;
@@ -128,18 +139,23 @@ small {
   z-index: 10000;
   font-size: 400%;
   line-height: 1.4;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: -1px;
 }
 
 .title-link {
   cursor: pointer;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 300;
 }
 
 .title-link:hover {
   color: #686afe;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .product-items {
@@ -153,7 +169,6 @@ small {
   background-color: #97979740;
   margin: 8px 0px;
   height: 240px;
-  width: 100%;
   cursor: url("/cursor.svg"), auto;
 }
 

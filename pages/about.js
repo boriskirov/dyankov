@@ -2,13 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Metadata from "../components/metadata";
+import Footer from "../components/footer";
 
 export default function Collection() {
   return (
     <div className="main-container grid about-bg">
       <Metadata />
 
-      <header className="grid cs1 ce12">
+      <header className="grid cs1 ce12 header">
         <div className="cs1 ce9">
           <Link href="/">
             <Image src="/back.svg" className="icon" width={24} height={24} />
@@ -69,6 +70,17 @@ export default function Collection() {
                   height={24}
                 />
               </Link>
+              <Link
+                href="https://www.instagram.com/kristianplus1/"
+                target="_blank"
+              >
+                <Image
+                  src="/instagram.svg"
+                  className="icon"
+                  width={24}
+                  height={24}
+                />
+              </Link>
               <Link href="mailto:dyankovv@gmail.com?subject=Hello">
                 <Image
                   src="/mail.svg"
@@ -80,8 +92,8 @@ export default function Collection() {
             </div>
           </div>
         </div>
+        <Footer />
       </motion.main>
-      <footer className="cs1 ce12">Designed with ♡ by Boris Kirov</footer>
     </div>
   );
 }

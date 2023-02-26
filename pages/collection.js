@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { getSortedPostsData } from "../lib/posts";
+import Footer from "../components/footer";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -18,7 +19,7 @@ export default function Collection({ allPostsData }) {
     <div className="main-container grid collection-bg">
       <Metadata />
 
-      <header className="grid cs1 ce12">
+      <header className="grid cs1 ce12 header">
         <div className="cs1 ce8">
           <Link href="/">
             <Image src="/back.svg" className="icon" width={24} height={24} />
@@ -59,6 +60,7 @@ export default function Collection({ allPostsData }) {
             ))}
           </ul>
         </section>
+        <Footer />
       </main>
     </div>
   );

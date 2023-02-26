@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Separator from "../../components/separator";
+import Footer from "../../components/footer";
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -85,7 +86,7 @@ export default function Post({ postData }) {
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
           className="cs1 ce12"
         />
-        <footer className="grid">
+        <div className="grid footer">
           <div className="cs1 ce12 flex space-between">
             <Link href="../posts/2-paraceramica">
               <h5>← [Paracemarica]</h5>
@@ -94,14 +95,8 @@ export default function Post({ postData }) {
               <h5>[Swell] →</h5>
             </Link>
           </div>
-          <div className="cs1 ce12 flex">
-            <Link href="/about">about</Link>
-            <br />
-            <Link href="./collection">collection</Link>
-            <br />
-            <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
-          </div>
-        </footer>
+        </div>
+        <Footer />
       </motion.div>
     </div>
   );

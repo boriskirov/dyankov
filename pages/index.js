@@ -5,12 +5,12 @@ import Metadata from "../components/metadata";
 
 export default function Home() {
   return (
-    <div className="main-container grid index-bg height-100vh">
+    <div className="main-container grid index-bg">
       <Metadata />
 
-      <header className="grid cs1 ce12">
+      <header className="grid cs1 ce12 header">
         <div className="cs1 ce8 flex">
-          <h6>Kristiyan Dyankov</h6>
+          <h5 className="name">Kristiyan Dyankov</h5>
         </div>
         <nav className="cs10 ce12 nav">
           <Link href="/about">about</Link>
@@ -42,6 +42,7 @@ export default function Home() {
           <div className="cs1 ce12">
             <Link href="/collection" className="center">
               <motion.video
+                className="reel"
                 playsInline=""
                 loop="loop"
                 muted="muted"
