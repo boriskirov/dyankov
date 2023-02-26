@@ -64,8 +64,12 @@ a {
 }
 
 a:hover {
-  font-weight: 600;
+  font-weight: 700;
   color: black;
+}
+
+a:hover > small {
+  font-weight: 400;
 }
 
 img {
@@ -155,7 +159,7 @@ small {
 }
 
 .name {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -197,14 +201,18 @@ small {
   margin: 24px 0;
 }
 
+.dimensions {
+  height: 100%;
+}
+
+@media (max-width: 1648px) {
+  .product-item {
+    width: 40%;
+  }
+}
 @media (max-width: 1024px) {
   .main-container {
     padding: 6vw;
-  }
-
-  .title {
-    font-size: 200%;
-    top: 30%;
   }
 
   video {
@@ -225,6 +233,6 @@ small {
   }
 
   .product-item {
-    width: 80%;
+    width: 90%;
   }
 }

@@ -56,10 +56,11 @@ export default function Post({ postData }) {
         </header>
         <Separator />
         <div className="grid flex-start">
-          <div className="cs1 ce4">
+          <div className="cs1 ce12">
             <br />
             <h1 className="title-link">{postData.title}</h1>
-            <br />
+          </div>
+          <div className="cs1 ce4 dimensions">
             <ul>
               <li>
                 <small>{postData.date}</small>
@@ -75,8 +76,7 @@ export default function Post({ postData }) {
               </li>
             </ul>
           </div>
-          <div className="cs5 ce10">
-            <br />
+          <div className="cs5 ce12">
             <small>{postData.body}</small>
           </div>
         </div>

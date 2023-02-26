@@ -22,23 +22,21 @@ export default function Home() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce12">
-            <motion.p
-              className="title"
-              initial={{
-                y: 0,
-                opacity: 1,
-              }}
-              animate={{
-                y: [0, 1],
-                opacity: 0,
-              }}
-              transition={{ ease: "easeIn", duration: 2.75 }}
-            >
-              Kristiyan Dyankov
-            </motion.p>
-          </div>
-          <div className="cs1 ce12">
             <Link href="/collection" className="center">
+              <motion.p
+                className="title"
+                initial={{
+                  y: 0,
+                  opacity: 1,
+                }}
+                animate={{
+                  y: [0, 1],
+                  opacity: 0,
+                }}
+                transition={{ ease: "easeIn", duration: 2.75 }}
+              >
+                Kristiyan Dyankov
+              </motion.p>
               <motion.video
                 className="reel"
                 playsInline=""
