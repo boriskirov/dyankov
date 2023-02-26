@@ -12,12 +12,10 @@ export default function Home() {
         <div className="cs1 ce8 flex">
           <h5 className="name">Kristiyan Dyankov</h5>
         </div>
-        <nav className="cs10 ce12 nav">
+        <nav className="cs11 ce12 nav">
           <Link href="/about">about</Link>
           <br />
           <Link href="./collection">collection</Link>
-          <br />
-          <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
         </nav>
       </header>
 

@@ -90,6 +90,7 @@ small {
 
 .main-container {
   padding: 2vw 16vw 6vw 16vw;
+  max-width: 1920px;
 }
 
 .height-100vh {
@@ -98,7 +99,7 @@ small {
 
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .flex {
@@ -160,15 +161,17 @@ small {
 
 .product-items {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .product-item {
+  width: 310px;
   padding: 32px;
   list-style: none;
   background-color: #97979740;
-  margin: 8px 0px;
-  height: 240px;
+  margin: 8px;
+  height: 420px;
   cursor: url("/cursor.svg"), auto;
 }
 

@@ -15,12 +15,10 @@ export default function Collection() {
             <Image src="/back.svg" className="icon" width={24} height={24} />
           </Link>
         </div>
-        <nav className="cs10 ce12 nav">
+        <nav className="cs11 ce12 nav">
           <Link href="./about">about</Link>
           <br />
           <Link href="./collection">collection</Link>
-          <br />
-          <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
         </nav>
       </header>
 

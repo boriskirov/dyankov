@@ -1,5 +1,6 @@
 ---
 title: "Paraceramica"
+bio: "Short bio for the charcoa"
 date: "Year 2019/20, Completed - available"
 image: "/paracemarica/thumbnail.png"
 body: "This project investigates into production techniques for ceramics, it finds opportunity in creating endless variations of forms very rapidly. It captures the moment of surface tension and translates it to a tactile object. The tiles are slip casted in plaster molds made using a tailor made machine which saves time and
