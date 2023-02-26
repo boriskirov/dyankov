@@ -46,12 +46,9 @@ export default function Post({ postData }) {
               <Image src="/back.svg" className="icon" width={44} height={44} />
             </Link>
           </div>
-          <nav className="cs9 ce12 nav">
+          <nav className="cs11 ce12 nav">
             <Link href="../about">about</Link>
-            <br />
             <Link href="../collection">collection</Link>
-            <br />
-            <Link href="mailto:dyankovv@gmail.com?subject=Hello">contact</Link>
           </nav>
         </header>
         <Separator />
