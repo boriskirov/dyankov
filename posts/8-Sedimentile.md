@@ -2,7 +2,7 @@
 title: "Sedimentile"
 bio: "Architectural tiles made with sediment from Rotterdam "
 date: "2022"
-image: \public\Sedimentile\thumbnail.jpg"
+image: \Sedimentile\thumbnail.jpg"
 body: "Rotterdam, the biggest port of Europe, where the largest ships call home and make our contemporary life possible. In order to maintain the flow of ships and goods, the depth of the waterways is constantly maintained through dredging. Heavy metals and other pollutants deriving from shipping, industrial and agricultural activity make the sediments problematic. We are left with big amounts of polluted river dredge as a result.
 
 Currently over 750 000 tonnes of sediment is dredged yearly and a big part of it goes to the designated landfill at the port called Slufter. 
@@ -19,5 +19,5 @@ material: "Material: Poluted sediment from the Nieuwe waterweg Rotterdam"
 photos: "Photo courtesy: Kristyan Dyankov"
 ---
 
-![Sedimentile](public\Sedimentile\Kristiyan Dyankov Poster Sedimentile.jpg "Sedimentile")
+![Sedimentile](\Sedimentile\Kristiyan Dyankov Poster Sedimentile.jpg "Sedimentile")
 
