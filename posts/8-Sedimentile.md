@@ -18,6 +18,6 @@ dimensions: "Dimensions: 20x20x5cm"
 material: "Material: Poluted sediment from the Nieuwe waterweg Rotterdam"
 photos: "Photo courtesy: Kristyan Dyankov"
 ---
-public\Sedimentile\Kristiyan Dyankov Poster Sedimentile.jpg
 
+![Sedimentile](public\Sedimentile\Kristiyan Dyankov Poster Sedimentile.jpg "Sedimentile")
 
