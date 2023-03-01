@@ -19,5 +19,6 @@ material: "Material: Poluted sediment from the Nieuwe waterweg Rotterdam"
 photos: "Photo courtesy: Kristyan Dyankov"
 ---
 
-![Sedimentile](\Sedimentile\Kristiyan Dyankov Poster Sedimentile.jpg "Sedimentile")
+![Sedimentile](\Sedimentile\Kristiyan Dyankov Poster Sedimentile.jpg"#Sedimentile")
+
 
