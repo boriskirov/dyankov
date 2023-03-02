@@ -135,7 +135,7 @@ small {
 }
 
 .title {
-  position: fixed;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
@@ -170,7 +170,7 @@ small {
 }
 
 .product-item {
-  width: 310px;
+  width: 300px;
   padding: 32px;
   list-style: none;
   background-color: #97979740;
@@ -233,6 +233,12 @@ small {
   }
 
   .product-item {
-    width: 90%;
+    width: 92%;
+  }
+}
+
+@media (max-width: 375px) {
+  .product-item {
+    width: 80%;
   }
 }
