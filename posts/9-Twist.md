@@ -9,8 +9,8 @@ material: "PLA recycled plastic"
 photos: "Photo courtesy: Kristyan Dyankov"
 ---
 
-![Twist](/twist/1.jpg "#Twist")
-![Twist](/twist/2.jpg "#Twist")
-![Twist](/twist/3.jpg "#Twist")
-![Twist](/twist/4.jpg "#Twist")
-![Twist](/twist/5.jpg "#Twist")
+![Twist](/Twist/1.jpg "#Twist")
+![Twist](/Twist/2.jpg "#Twist")
+![Twist](/Twist/3.jpg "#Twist")
+![Twist](/Twist/4.jpg "#Twist")
+![Twist](/Twist/5.jpg "#Twist")
