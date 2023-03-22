@@ -40,20 +40,18 @@ export default function Collection() {
           </div>
           <div className="cs5 ce12 grid">
             <p className="cs2 ce12">
-              “Coming from a DIY background, I am drawn to working with my two
-              hands and understanding how things work. In my work I like to play
-              with textures and solve problems on various scales. The tools of
-              digital fabrication and material knowledge are essential for my
-              work.” <br />
+            “Coming from a DIY background, I am drawn to working with my two hands and understanding how things work. In my practice I
+            focus on materials, textures and sustainable design and make them meet in my creations. I like change and can solve problems
+             on various scales. My motto is: make sustainability attractive! As I recognize that we vote with our wallets and we buy with our eyes.
+              As a digital native every project gets assessed to what degree can it be done by or with the help of a machine of digital fabrication.’’ <br />
             </p>
             <p className="cs2 ce12">
               <br />
-              Kristiyan is born in Sofia, Bulgaria, currently following a
-              product design course at the Willem de Kooning Academy, Rotterdam.
-              After internshipping in the architectural bureau Aedes, and worked
-              for the SEG in Sofia, he decided to take turn and get his degree
-              in product design in the Netherlands. His experience with spatial
-              design and various manufacturing techniques positions him in
+              Kristiyan is a Bulgarian born, Rotterdam based product designer exploring the link between the aesthetic and the practical.
+               In his work he often uses the means of digital fabrication to achieve form language that is otherwise difficult to reproduce by hand.
+                Understanding the need to transition to sustainable practices in design and manufacturing is what sparked his interest in material
+                 research and circular economy. He sees the designer as the medium between the industry, environment and market who is capable of
+                  translating sustainable practices into attractive products.  
               between the two majors.
             </p>
             <div className="flex cs2 ce12">
