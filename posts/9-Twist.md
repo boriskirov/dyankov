@@ -7,6 +7,8 @@ body: "Architectural vases 3d printed with recycled plastics, reclaimed from the
 dimensions: "Dimensions: 20x20x25cm"
 material: "PLA recycled plastic"
 photos: "Photo courtesy: Kristyan Dyankov"
+Shop: "Available for direct sale via email"
+
 ---
 
 ![Twist](/Twist/1.jpg "#Twist")
