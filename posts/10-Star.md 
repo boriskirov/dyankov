@@ -9,10 +9,10 @@ material: "Material: Recycled PLA"
 photos: "Photo courtesy: Kristyan Dyankov"
 ---
 
-/Users/kris/Documents/GitHub/dyankov/public/Star/1.jpg
-/Users/kris/Documents/GitHub/dyankov/public/Star/2.jpg
-/Users/kris/Documents/GitHub/dyankov/public/Star/3.jpg
-/Users/kris/Documents/GitHub/dyankov/public/Star/4.jpg
-/Users/kris/Documents/GitHub/dyankov/public/Star/5.jpg
-/Users/kris/Documents/GitHub/dyankov/public/Star/6.jpg
-/Users/kris/Documents/GitHub/dyankov/public/Star/7.jpg
+![Star](/Star/1.jpg "#Star")
+![Star](/Star/2.jpg "#Star")
+![Star](/Star/3.jpg "#Star")
+![Star](/Star/4.jpg "#Star")
+![Star](/Star/5.jpg "#Star")
+![Star](/Star/6.jpg "#Star")
+![Star](/Star/7.jpg "#Star")
